@@ -4,7 +4,7 @@
   "description": "Simple system monitor desktop app",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/MohammedMotara/systemInfoApp/issues"
   },
-  "homepage": "https://github.com/MohammedMotara/systemInfoApp#readme"
+  "homepage": "https://github.com/MohammedMotara/systemInfoApp#readme",
+  "dependencies": {
+    "electron": "^7.1.2",
+    "install": "^0.13.0",
+    "npm": "^6.13.1"
+  }
 }
