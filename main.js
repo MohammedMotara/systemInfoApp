@@ -20,8 +20,8 @@ const createWindow = () => {
     slashes: true
   }))
 
-  //open devTools
-  win.webContents.openDevTools();
+  //open devTools automatically
+  // win.webContents.openDevTools();
 
 
   win.on('closed', () => {
@@ -33,7 +33,7 @@ const createWindow = () => {
 //Run create window function
 app.on('ready', createWindow)
 
-//Quit when all windows are closed. If statement here checks whether the user is on a mac or not.
+//Quit when all windows are closed. The If statement here checks whether the user is on a mac or not.
 app.on('windoe-all-closed', () => {
   if(process.platform !== 'darwin'){
     app.quit();
