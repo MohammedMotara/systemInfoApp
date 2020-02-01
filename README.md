@@ -1,4 +1,4 @@
-# systemInfoApp
+# HelloWorldApp (Previously a systeminfoapp)
 This is an app that is for the purposes of training/ note taking on how to produce a basic electronjs app.
 
 
